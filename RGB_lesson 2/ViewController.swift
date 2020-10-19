@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        sliderRed.value = 0
+        //sliderRed.value = 0
         sliderRed.minimumValue = 0
         sliderRed.maximumValue = 1
         sliderRed.thumbTintColor = .red
@@ -34,11 +34,18 @@ class ViewController: UIViewController {
         sliderBlue.tintColor = .blue
         
         redPercent.text = String(sliderRed.value)
-        redPercent.font = redPercent.font.withSize(35)
+        //redPercent.font = redPercent.font.withSize(35)
         
         greenPercent.text = String(sliderGreen.value)
+        
+        bluePercent.text = String(sliderBlue.value)
+        
+        
     }
 
 
+//    @IBAction func redSliderAction() {
+//        redPercent.text = String(sliderRed.value)
+//    }
 }
 

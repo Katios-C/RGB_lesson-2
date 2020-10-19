@@ -9,6 +9,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var window: UIView!
+    
+    @IBOutlet var bluePercent: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
